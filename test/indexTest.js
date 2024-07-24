@@ -1,6 +1,6 @@
 const chai = require("chai");
 global.expect = chai.expect;
-const isPalindrome = require("../index");
+const isPalindrome = require("../index").default;
 
 describe("isPalindrome", () => {
   it("returns true for 'abba'", () => {
